@@ -20,11 +20,11 @@
 	<div class="navbar-collapse collapse " id="menuid">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item"><a class="nav-link" href="index.php">Főoldal</a></li>
-			<li class="nav-item"><a class="nav-link" href="konyvek.php">Könyvek</a></li>
-			<li class="nav-item"><a class="nav-link" href="kotelezok.php">Kötelező olvasmányok</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Kölcsönzések</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Új könyv</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Évfolyam módosítás</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=konyvek.php">Könyvek</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=kotelezok.php">Kötelező olvasmányok</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=">Kölcsönzések</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=">Új könyv</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=">Évfolyam módosítás</a></li>
 		</ul>
 	</div>
 </nav>  
@@ -32,7 +32,10 @@
 <main role="main" class="container p-2">
 	<div class="jumbotron">
 		<?php
-		echo "ide kell kerülön a tartalom";
+		if(isset($_GET["p"])){
+			include $_GET["p"];
+		}
+		else include("fooldal.php");
 		?>
     </div>
 </main>
