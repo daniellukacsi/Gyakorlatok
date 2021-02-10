@@ -1,0 +1,25 @@
+body{
+    width:500px;
+    margin:0 auto;
+    background-color: antiquewhite;
+    height: 2000px;
+    margin-top: 50px;
+    font-family: 'Sen';
+  }
+  
+  div{
+    display:block;
+  }
+  /*pozicionálás*/
+  div.iksz{
+      text-align: right;
+  }
+  input{
+    line-height : 160%;
+  }
+  #kerdojel{
+    float:right;
+    position: fixed;
+    right: 10px;
+
+  }
