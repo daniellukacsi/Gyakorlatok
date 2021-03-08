@@ -1,0 +1,54 @@
+body{
+    background-image:url(minta.jpg);
+	background-size:cover;    
+}
+#tartalom{
+	width:70%;
+	margin:auto;
+}
+.oldat{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1{
+	border-bottom: 5px dashed blue;
+}
+p,li{
+	text-align: justify;
+    list-style-image:url(lombik.png);
+}
+
+#kep{
+	border: 10px outset blue;
+    float:right;
+    margin-left: 10px;
+}
+
+#keplet{	
+	background-color:blue;	
+	color: white;
+	width:500px;	
+	padding:20px;
+	margin:auto;
+	text-align:center;
+}
+input{
+	background-color:blue;
+	color: white;
+	font-weight: bold;
+	padding:5px;
+	width:90px;
+}
+#eredmeny{
+	font-weight: bold;	
+    color:blue;
+    padding: 5px;
+}
+#forras{
+	font-weight:bold;
+    text-align:right;
+}
+a{
+	color:black;
+}
