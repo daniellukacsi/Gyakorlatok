@@ -84,3 +84,7 @@ a{
 a:hover{
     color: red;
 }
+
+.kurzor:hover{
+    color:blue;
+}
