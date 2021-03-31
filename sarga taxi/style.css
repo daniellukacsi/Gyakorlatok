@@ -1,0 +1,104 @@
+#content{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:#fff8dc;
+    height:100vh;
+    margin-top:0;
+}
+body>div{
+    height:100vh;
+    padding:0 50px;
+}
+h1{
+    font-size:50px;
+    font-weight:bolder;
+}
+.right{
+    margin:0 0 15px 15px;
+    border:3px solid lightgrey;
+}
+body>div>*,body>div>div>*{
+    margin-bottom:15px;
+}
+.bio{
+    padding:25px;
+    margin:15px 15px 0 0;
+}
+.left{
+    float:left;
+    margin-right:10px;
+}
+ul{
+    padding:15px;
+}
+hr{
+    border-color:#ff0;
+    margin-bottom:30px;
+}
+
+
+/*------------TAXI.CSS---------------------*/
+#content{
+    background-color: goldenrod;
+    max-width: 960px;
+    width: auto;
+    margin: 0 auto;
+}
+h1{
+    font-variant: small-caps;
+    text-align: center;
+    font-size:50px;
+    font-weight:bolder;
+}
+p{
+    text-align: justify;
+}
+.sortores{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    color: red;
+}
+.doboz{
+    display: inline-block;
+    max-width: 930px;
+    margin: 0 auto;
+    width: auto;
+    padding: 15px;
+}
+body{
+    background-color:#fff8dc;
+    border-left: 10px double thick gold;
+    border-right: 10px double thick gold;
+}
+.right{
+    margin:0 0 15px 15px;
+    border:3px solid #ff0;
+    float: right;
+    max-height: 300px;
+    height: auto;
+}
+.felsorolas{
+    padding:25px;
+    margin:15px 15px 0 0;
+    float: left;
+    max-width: 400px;
+    width: auto;
+    background-color: lightgray;
+     border: 3px solid yellow;
+}
+.left{
+    float:left;
+    margin-right:10px;
+    float: left;
+}
+hr{
+    border-color:#ff0;
+    margin-bottom:30px;
+}
